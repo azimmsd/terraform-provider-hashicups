@@ -3,11 +3,11 @@ module terraform-provider-hashicups
 go 1.25.8
 
 require (
+	github.com/hashicorp-demoapp/hashicups-client-go v0.1.0
 	github.com/hashicorp/terraform-plugin-framework v1.19.0
 	github.com/hashicorp/terraform-plugin-go v0.31.0
 	github.com/hashicorp/terraform-plugin-log v0.11.0
 	github.com/hashicorp/terraform-plugin-testing v1.16.0
-	github.com/hashicorp/terraform-provider-scaffolding-framework v0.0.0-20260806151927-90ec9d044022
 )
 
 require (
